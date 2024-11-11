@@ -25,11 +25,26 @@ const App = () => {
 
   //user avatars data
   const userAvatars = [
-    { src: "/api/placeholder/32/32", fallback: "U1" },
-    { src: "/api/placeholder/32/32", fallback: "U2" },
-    { src: "/api/placeholder/32/32", fallback: "U3" },
-    { src: "/api/placeholder/32/32", fallback: "U4" },
-    { src: "/api/placeholder/32/32", fallback: "U5" },
+    {
+      src: "https://media.licdn.com/dms/image/v2/D4E03AQHyWz6u0Prd5g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1729002913978?e=1736985600&v=beta&t=HdfMJ-VENVq_JboatOQqmcZiPuT9QXhO0bQZV-3npN0",
+      fallback: "U1",
+    },
+    {
+      src: "https://images.unsplash.com/photo-1721332155567-55d1b12aa271?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      fallback: "U2",
+    },
+    {
+      src: "https://images.unsplash.com/photo-1721332155567-55d1b12aa271?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      fallback: "U3",
+    },
+    {
+      src: "https://images.unsplash.com/photo-1720048171527-208cb3e93192?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      fallback: "U4",
+    },
+    {
+      src: "https://images.unsplash.com/photo-1726083218617-6b8a0000e574?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      fallback: "U5",
+    },
   ]
 
   const userRoles = [
@@ -108,7 +123,8 @@ const App = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <img src="/api/placeholder/32/32" alt="Logo" className="h-8 w-8 rounded-md" />
+              <img src="https://media.licdn.com/dms/image/v2/D4E03AQHyWz6u0Prd5g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1729002913978?e=1736985600&v=beta&t=HdfMJ-VENVq_JboatOQqmcZiPuT9QXhO0bQZV-3npN0"
+      alt="Logo" className="h-8 w-8 rounded-md" />
               <span className="ml-2 text-xl font-semibold">Untitled UI</span>
             </div>
             <div className="flex items-center gap-4">

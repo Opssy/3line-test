@@ -1,7 +1,6 @@
 import { render, screen, fireEvent, within } from "@testing-library/react"
 import userEvent from "@testing-library/user-event"
-import App from "./App"
-
+import App from "../App"
 // Mock the lucide-react icons
 jest.mock("lucide-react", () => ({
   Menu: () => <div data-testid="menu-icon" />,
